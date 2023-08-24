@@ -60,7 +60,7 @@ module.exports = {
     pickActivity();
 
     // Set an interval to change the activity every 5 seconds
-    setInterval(pickActivity, 5 * 1000);
+    setInterval(pickActivity, 4 * 1000);
 
     // Uncomment the following lines if a database connection is involved
     // if (!Database) return;

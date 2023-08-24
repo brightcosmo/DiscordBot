@@ -1,7 +1,7 @@
 /**
  * Load and register commands for the Discord bot.
- * @param {Client} client - The Discord.js Client instance representing the bot.
- * @returns {Promise<void>} - A promise that resolves once all commands are loaded.
+ * param {Client} client - The Discord.js Client instance representing the bot.
+ * returns {Promise<void>} - A promise that resolves once all commands are loaded.
  */
 async function loadCommands(client) {
     // Import necessary functions and modules

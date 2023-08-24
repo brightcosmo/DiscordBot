@@ -10,10 +10,10 @@ module.exports = {
      */
     execute(interaction, client){
         const embed = new EmbedBuilder()
-            .setTitle("Embed1")
-            .setDescription("Description")
+            .setTitle("Your")
+            .setDescription("mother")
             .setTimestamp();
             
-        interaction.reply({embeds: [embed], ephemeral: true})
+        interaction.reply({embeds: [embed], ephemeral: false})
     }
 }
