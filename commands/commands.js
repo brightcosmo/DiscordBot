@@ -22,7 +22,7 @@ module.exports = {
    * @type {SlashCommandBuilder}
    */
   data: new SlashCommandBuilder()
-    .setName("help")
+    .setName("help2")
     .setDescription("Help GUI | All the information on how to use AmiBot"),
 
   /**
